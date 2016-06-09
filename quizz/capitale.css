@@ -1,0 +1,118 @@
+html
+{
+	background-color: rgb(255, 255, 255);
+	font-size: 20px;
+	font-family:Times;
+	color: rgb(136,136,136);
+
+
+}
+
+body
+{
+	white-space:nowrap;
+}
+
+.intro
+{
+	font-size: 50px;
+	color: rgb(20,20,20);
+	font-family:Times;
+
+}
+.bandeau
+{
+	background-color: rgb(244,244,244);
+	border: 0px;
+}
+
+.logo:hover
+{
+
+   
+    transition: 350ms;
+    transform: scale(1.2);
+    
+}
+
+.autre
+{
+	border-radius: 25px
+}
+.autre:hover
+{
+
+   box-shadow: 10px 10px 5px #888888;
+    transition: 350ms;
+    transform: scale(1.2);
+    
+}
+
+
+.question
+{
+	font-weight: bold;
+	color:rgb(20,20,20);
+	text-align: justify;
+	
+}
+
+
+input[type=radio]:checked + label {
+    font-weight: bold;
+
+}
+
+.bouton
+{
+padding:12px 0 12px 0;
+	font:Bold 16px Arial;
+	background:rgb(255, 255, 255);
+	width:130px;
+	border-radius:5px;
+	border:1px solid rgb(233,83,37);
+	color: rgb(233,83,37);
+	text-decoration:none;
+}
+
+.bouton:hover
+{
+padding:12px 0 12px 0;
+	font:Bold 16px Arial;
+	background:rgb(233,83,37);
+	width:130px;
+	border-radius:5px;
+	border:1px solid rgb(233,83,37);
+	color: rgb(255, 255, 255);
+	transition: 550ms;
+}
+
+
+.liens
+{
+	font-size: 25px;
+	color: rgb(20,20,20);
+	font-family:Times;
+}
+
+.numero
+{	
+
+	font-size: 30px;
+	color:rgb(233,83,37);
+	
+}
+
+.orange
+{
+	background-color: rgb(233,83,37);
+	border: 0px;
+}
+
+hr{
+		background-color: rgb(136,136,136);
+	border: 0px;
+}
+
+
+

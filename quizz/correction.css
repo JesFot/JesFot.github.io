@@ -1,0 +1,116 @@
+html
+{
+	background-color: rgb(255, 255, 255);
+	font-size: 20px;
+	font-family:Times;
+	color: rgb(136,136,136);
+
+
+}
+
+.blanc
+{
+	color:rgb(255, 255, 255);
+}
+body
+{
+	white-space:nowrap;
+}
+
+.intro
+{
+	font-size: 50px;
+	color: rgb(20,20,20);
+	font-family:Times;
+
+}
+
+
+.logo:hover
+{
+
+   
+    transition: 350ms;
+    transform: scale(1.2);
+    
+}
+
+.autre
+{
+	border-radius: 25px
+}
+.autre:hover
+{
+
+   box-shadow: 10px 10px 5px #888888;
+    transition: 350ms;
+    transform: scale(1.2);
+    
+}
+
+
+.question
+{
+	font-weight: bold;
+	color:rgb(20,20,20);
+	text-align: justify;
+	
+}
+
+.bouton
+{
+padding:12px 0 12px 0;
+	font:Bold 16px Arial;
+	background:rgb(255, 255, 255);
+	width:130px;
+	border-radius:5px;
+	border:1px solid rgb(0,205,0);
+	color: rgb(0,205,0);
+	text-decoration:none;
+}
+
+.bouton:hover
+{
+padding:12px 0 12px 0;
+	font:Bold 16px Arial;
+	background:rgb(0,205,0);
+	width:130px;
+	border-radius:5px;
+	border:1px solid rgb(0,205,0);
+	color: rgb(255, 255, 255);
+	transition: 550ms;
+}
+
+
+
+.ok
+{
+	color:rgb(0,205,0);
+}
+
+
+.liens
+{
+	font-size: 25px;
+	color: rgb(20,20,20);
+	font-family:Times;
+}
+
+.numero
+{	
+
+	font-size: 30px;
+	color:rgb(0,205,0);
+	
+}
+
+.orange
+{
+	background-color: rgb(0,205,0);
+	border: 0px;
+}
+
+hr{
+		background-color: rgb(136,136,136);
+	border: 0px;
+}
